@@ -1,0 +1,23 @@
+{
+  "name": "travis-ci-test",
+  "version": "1.0.0",
+  "description": "A simple travis CI test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha .test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsiuniak/travis-ci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsiuniak/travis-ci-test/issues"
+  },
+  "homepage": "https://github.com/gsiuniak/travis-ci-test#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
