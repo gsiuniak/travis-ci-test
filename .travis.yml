@@ -1,0 +1,4 @@
+# This file tells Travis what's up
+language: node_js
+node_js:
+- stable
