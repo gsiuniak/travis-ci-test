@@ -7,4 +7,8 @@ describe('Sample', () => {
     expect(true).to.equal(true)
     done()
   })
+  it('will fail', (done) => {
+    expect(true).to.equal(false)
+    done()
+  })
 })
